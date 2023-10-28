@@ -19,7 +19,7 @@ font-family: 'Poppins', sans-serif;
 7.  Experience
 8.  certifications
 9.  Portfolio
-10. Clients
+10. Projects
 11. Contact
 
 /*-------------------------------------
@@ -271,7 +271,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92c2c;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
@@ -369,9 +369,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
-}
+
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
@@ -668,17 +666,17 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. Clients
+        10. Projects
 --------------------------------------*/
-.clients {padding-top: 50px;}
-.clients-area {
+.projects {padding-top: 50px;}
+.projects-area {
     display: flex;
     align-items: center;
     height: 250px;
 }
-.clients-area .item {padding: 0 25px;}
+.projects-area .item {padding: 0 25px;}
 
-.clients .clients-area .owl-carousel .owl-item img {
+.projects .projects-area .owl-carousel .owl-item img {
     display: block;
     width: 100%;
     height: auto;
@@ -762,6 +760,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight:  300;
     margin-top:  6px;
 }
+.contact-add-head img{display: block;border-radius:0;position: relative;border:none;max-width:100%; height:auto;}
 /* contact-adress */
 
 /*.contact-add-info */
@@ -781,9 +780,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
